@@ -1,0 +1,13 @@
+
+site_name: "APS Documentation"
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - System Architecture: architecture.md
+  - Frontend: frontend.md
+  - Backend: backend.md
+  - Authentication: authentication.md
+  - Real-Time Updates: real-time-updates.md
+  - Deployment: deployment.md

@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1, header button {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+main {
+  padding: 2em;
+}
+
+section.articles, section.tasks, section.files, section.task-list {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+
+.article-card, .task {
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
