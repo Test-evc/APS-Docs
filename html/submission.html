@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit New Article</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Submit New Article</h1>
+    <button onclick="location.href='index.html'">Back to Dashboard</button>
+  </header>
+
+  <main>
+    <form action="#">
+      <label>Title</label>
+      <input type="text" required>
+
+      <label>Author(s)</label>
+      <input type="text" required>
+
+      <label>Abstract</label>
+      <textarea rows="4"></textarea>
+
+      <label>Manuscript File</label>
+      <input type="file" required>
+
+      <label>Supporting Files</label>
+      <input type="file" multiple>
+
+      <button type="submit">Submit Article</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Publishing Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <button onclick="location.href='submission.html'">Submit New Article</button>
+    <button onclick="location.href='task-list.html'">View My Tasks</button>
+  </header>
+
+  <main>
+    <section class="filters">
+      <input type="text" placeholder="Search by title, author...">
+      <select>
+        <option>All Stages</option>
+        <option>Initial Analysis</option>
+        <option>Copyediting</option>
+        <option>Typesetting</option>
+        <option>Proofing</option>
+      </select>
+    </section>
+
+    <section class="articles">
+      <h2>Articles in Production</h2>
+      <div class="article-card">
+        <h3>Article Title</h3>
+        <p><strong>Author:</strong> Jane Doe</p>
+        <p><strong>Current Stage:</strong> Copyediting</p>
+        <progress value="60" max="100"></progress>
+        <button onclick="location.href='article-detail.html'">View Details</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
